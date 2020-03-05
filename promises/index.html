@@ -2,10 +2,16 @@
 
 <html>
     <head>
-        <title>Promises</title>
+        <title>Github Repos List</title>
     </head>
     <body>
-        
+        <input name="user" placeholder="github user name" id="user"/>
+        <button onclick="searchRepos()">Adicionar</button>
+
+        <div id="repos">
+            <ul> </ul>
+        </div>
+
     </body>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
